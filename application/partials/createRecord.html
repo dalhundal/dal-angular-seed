@@ -1,0 +1,19 @@
+<li>
+   <a href='javascript:null' ng-click='open(true)'>+ Create record</a>
+   <div modal='open()' close='open(false)'>
+      <div class='modal-header'>
+         <h3>Create new record</h3>
+      </div>
+      <form ng-submit='create(recordTitle)'>
+         <div class='modal-body'>
+               <fieldset>
+                  <input type='text' ng-model='recordTitle' placeholder='Record title' class='input-block-level'></input>
+               </fieldset>
+         </div>
+         <div class='modal-footer'>
+            <button type='submit' class='btn btn-primary'>Create</button>
+            <button type='button' class='btn btn-danger' ng-click='open(false)'>Cancel</button>
+         </div>
+      </form>
+   </div>
+</li>
