@@ -11,10 +11,11 @@
   ],
   "dependencies": {
     "angular": "*",
-    "angular-resource": "*",
     "jquery": "*",
+    "less": "~1.4.2",
     "restangular": "*",
     "requirejs": "*",
-    "underscore":"*"
+    "requirejs-plugins": "*",
+    "underscore": "*"
   }
 }

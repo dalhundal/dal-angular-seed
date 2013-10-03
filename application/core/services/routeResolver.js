@@ -2,7 +2,7 @@
 
 define([], function() {
 
-   var services = angular.module('routeResolverServices', []);
+   var services = angular.module('core/routeResolverServices', []);
 
    services.provider('routeResolver', function() {
 
@@ -37,7 +37,7 @@ define([], function() {
             routeDef.controller = baseName + 'Controller';
             routeDef.resolve = {
                load: ['$q', '$rootScope', function($q, $rootScope) {
-                  var dependencies = [routeConfig.controllersDirectory() + baseName + 'Controller.js'];
+                  var dependencies = [routeConfig.controllersDirectory() + baseName + '.js'];
                   return resolveDependencies($q, $rootScope, dependencies);
                }]
             };

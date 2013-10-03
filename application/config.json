@@ -1,0 +1,16 @@
+{
+   
+   "less": {
+      "watch": false
+   },
+
+   "loadModules": {
+      "restangular": "../lib/bower/restangular/dist/restangular.min"
+   },
+
+   "routes": {
+      "/"                        : {"redirect": "/_example", "default": true},
+      "/_example"                : {"resolve": "_example"}
+   }
+
+}
