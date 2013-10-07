@@ -5,7 +5,8 @@
    },
 
    "loadModules": {
-      "restangular": "../lib/bower/restangular/dist/restangular.min"
+      "restangular": "../lib/bower/restangular/dist/restangular.min",
+      "dalFilters": "application/modules/filters/dalFilters.js"
    },
 
    "routes": {
