@@ -13,6 +13,7 @@
     "angular": "*",
     "jquery": "*",
     "less": "~1.4.2",
+    "less-prefixer": "*",
     "restangular": "*",
     "requirejs": "*",
     "requirejs-plugins": "*",
